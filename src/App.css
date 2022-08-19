@@ -1,0 +1,142 @@
+
+.navbar {
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 95px;
+  border-bottom: solid 1px black;
+  
+}
+
+.Main{
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+
+.avaxBalance{
+grid-template-columns: auto auto ;
+
+border-bottom: solid 1px rgb(170, 170, 170);
+padding: 10px;
+}
+
+.balanceTop{
+  display: flex;
+  justify-content: space-between;
+}
+
+.balanceLeft{
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.savaxBalance{
+  display: grid;
+  grid-template-columns: auto auto ;
+
+  padding: 10px;
+}
+
+.stakebox{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px #ff9100;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  background-image: -moz-linear-gradient(#f6c37c, white);
+}
+
+
+.unstakebox{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px #00aeff;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  background-image: -moz-linear-gradient(#39d7ff, white);
+}
+.Stake{
+  background-image: -moz-linear-gradient(#edf4f6, white);
+  padding: 50px;
+  border-radius: 10px;
+  max-width: 890px;
+  min-width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+min-height: 50px;
+height: 75px;
+border: solid 1px #ff9100;
+border-radius: 15px;
+margin: 15px;
+width: 90%;
+background: transparent;
+font-size: 30px;
+padding-left: 10px;
+/*background-image: url('./avalanche.png');
+background-repeat: no-repeat;
+background-position: 80%;
+background-size: 6%;*/
+}
+
+.button2{
+height: 55px;
+width: 150px;
+border: solid 1px;
+border-radius: 10px;
+margin: 10px;
+background-color: #f6c37c;
+border-color: #ff9100;
+}
+
+.button3{
+  height: 55px;
+  width: 150px;
+  border: solid 1px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #7cdef6;
+border-color: #16a1fd;
+  }
+
+.right {
+  text-align: right;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: 100;
+}
+
+.rightWallet{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(179, 178, 178);
+  border-radius: 12px;
+  width:180px;
+  height: 50px;
+}
+
+.walletButton{
+  background-color: #ccf0fb;
+  border-radius: 30px;
+  border: solid 2px #00b3ed;
+  width: 110px;
+  height: 40px;
+}
+
+
+.input:focus {		
+  outline: none;
+}
