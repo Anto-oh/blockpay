@@ -63,7 +63,7 @@ function App() {
               setContractAccount( sdrs )
           
               let balance = await sdrs.methods.balanceOf(accounts[0]).call()
-              setBalanceState( balance )
+              setBalanceState(web3.utils.fromWei( balance,'ether') )
       console.log(balance)
               
             
