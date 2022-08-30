@@ -105,7 +105,17 @@ border-color: #ff9100;
   background-color: #7cdef6;
 border-color: #16a1fd;
   }
-
+  .butcon{
+    height: 80px;
+    width: 200px;
+    border: solid 1px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #f6c37c;
+    border-color: #ff9100;
+    font-size: large;
+    cursor: pointer
+    }
 .right {
   text-align: right;
 }
@@ -139,4 +149,10 @@ h4 {
 
 .input:focus {		
   outline: none;
+}
+
+table{
+  padding: 50px;
+  border-spacing: 1rem;
+  text-align: left;
 }
