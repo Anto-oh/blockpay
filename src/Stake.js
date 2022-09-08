@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { IconWallet} from '@tabler/icons';
 import 'remixicon/fonts/remixicon.css'
 import { useState } from "react";
+import isotipo from './logosbpay/Isotipo_blanco.png'
+import * as mdb from 'mdb-ui-kit'; // lib
 function Stake({balanceS, account}){
 
 return(
@@ -29,7 +31,11 @@ return(
     <div style={{display:"grid", gridTemplateColumns: "auto auto"}}>
     <div className='stakebox'>
     <p>1 year Stake</p>
-    <input className='input' placeholder='0.00'></input>
+    <div style={{display:"grid", gridTemplateColumns: "auto auto", position:"relative"}}>
+    <input className='input' placeholder='0.00' id='stakeinput'></input>
+    <div style={{ position:"absolute", top:"25px", right:"20px"}}>
+        <img className="inputisotipo" src={isotipo}></img></div>
+</div>
     <button className='button2'>STAKE</button>
     
    
@@ -39,7 +45,11 @@ return(
     
     <div className='unstakebox'>
     <p>1.5 years Stake</p>
-    <input className='input' placeholder='0.00'></input>
+    <div style={{display:"grid", gridTemplateColumns: "auto auto", position:"relative"}}>
+    <input className='input' placeholder='0.00' id='stakeinput'></input>
+    <div style={{ position:"absolute", top:"25px", right:"20px"}}>
+        <img className="inputisotipo" src={isotipo}></img></div>
+</div>
     <button className='button3'>STAKE</button>
  
 
